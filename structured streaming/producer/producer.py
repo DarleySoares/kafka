@@ -22,7 +22,7 @@ class Producer:
 
         url: str = "https://economia.awesomeapi.com.br/json/last/USD-BRL"
         response = requests.request("GET", url)
-        return json.loads(response.text)
+        return json.loads(response.text)["USDBRL"]
      
     def send_mensage(self, mensage: Dict[str, Union[str, int, float, bool]]) -> None:
 
