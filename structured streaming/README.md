@@ -5,6 +5,10 @@
 ## Technologies
 
 
+## Architecture
+   
+![Architecture](./img/data_engineering.drawio.png)
+
 ## Debug
 
 ```bash
