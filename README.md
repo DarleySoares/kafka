@@ -39,4 +39,4 @@ the configuration of all topics, including the list of existing topics, number o
 
 ## Projects
 
-* [Structured Streaming](./structured%20streaming/README.md)
+* [Structured Streaming](./structured%20streaming/)
