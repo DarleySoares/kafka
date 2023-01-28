@@ -36,6 +36,7 @@ leaders in order to fulfill the duties of the partition leaders on the node that
 to fail. It's also used to keeps a list of all functioning brokers in the cluster; maintains
 the configuration of all topics, including the list of existing topics, number of partitions for each topic, location of the replicas and etc.; maintains the ACLs for all topicas and acesses how much data each client is allowed to read and write.
 
-## Objective
 
 ## Projects
+
+* [Structured Streaming](./structured%20streaming/README.md)

@@ -1,10 +1,8 @@
 # Kafka + Structured Streaming
 
-# Strutuctured Streaming
+Structured Streaming is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine. The Spark SQL engine will take care of running it incrementally and continuously and updating the final result as streaming data continues to arrive. The streaming queries are processes using a micro-batch processing engine, which processes data streams as a series of small batch jobs thereby achieving end-to-end latencies as low as 100ms, now the Continuous Processing mode can achieve end-to-end latencies as low as 1ms.
 
-Strutuctured Streaming is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine. The Spark SQL engine will take care of running it incrementally and continuously and updating the final result as streaming data continues to arrive. The streaming queries are processes using a micro-batch processing engine, which processes data streams as a series of small batch jobs thereby achieving end-to-end latencies as low as 100ms, now the Continuous Processing mode can achieve end-to-end latencies as low as 1ms.
-
-## Window Operations on Event Time
+### Window Operations on Event Time
 
 Aggregations over a sliding event-time window are straightforward with Structured Streaming and are very similar to grouped aggregations. In window-based aggregations, aggregate values are maintained for each window the event-time of a row fall into.
 
@@ -17,7 +15,7 @@ windowed_count = (
 )
 ```
 
-## Handling Late Data and Watermarking
+### Handling Late Data and Watermarking
 
 It's used if one of the events arrives late to the application and is necessary updates counts from the older window. It's possible defines the threshold of how late is the data allowed to be. For grouped aggregation is need wich sink output mopde must be update or append.
 
@@ -53,7 +51,7 @@ session_windows = (
 )
 ```
 
-## Output Modes
+### Output Modes
 
 There are three types of output modes:
 
@@ -63,10 +61,9 @@ There are three types of output modes:
 
 **Update mode:** only the rows in the result table that were updated since the last trigger will be outputted to the sink.
 
-## Foreach and ForeachBatch
+### Foreach and ForeachBatch
 
-
-## Triggers
+### Triggers
 
 ## Objective
 
