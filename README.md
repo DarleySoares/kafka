@@ -1,4 +1,4 @@
-# Kafka Projects
+<img src="./img/apache_kafka_projects.png"/>
 
 ## Kafka
 
