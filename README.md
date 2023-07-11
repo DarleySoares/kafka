@@ -1,6 +1,10 @@
-<img src="./img/apache_kafka_projects.png"/>
+<h1 align="center">
+    <a><img src = "img/kafka.png" width="100px"></a>
+</h1>
 
-## Kafka
+<h1 align="center">
+    Apache Kafka
+</h1>
 
 According to Apache enterprise, Apache Kafka is an open-source distributed event streaming plataform used by 
 thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical
