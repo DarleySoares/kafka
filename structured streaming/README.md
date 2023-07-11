@@ -1,7 +1,11 @@
-# Kafka + Structured Streaming
+<h1 align="center">
+    <a><img src = "img/pipeline.png" width="100px"></a>
+</h1>
 
+<h1 align="center">
+    Structured Streaming
+</h1>
 
-## Structured Streaming
 Structured Streaming is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine. The Spark SQL engine will take care of running it incrementally and continuously and updating the final result as streaming data continues to arrive. The streaming queries are processes using a micro-batch processing engine, which processes data streams as a series of small batch jobs thereby achieving end-to-end latencies as low as 100ms, now the Continuous Processing mode can achieve end-to-end latencies as low as 1ms.
 
 ### Window Operations on Event Time
